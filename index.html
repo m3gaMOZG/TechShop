@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechShop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><div class="header-inner"><a class="logo" href="#">Tech<span>Shop</span></a><p>Магазин электроники</p></div></header>
+  <main>
+    <section class="intro">
+      <p class="eyebrow">ТЕХНОЛОГИИ ДЛЯ КАЖДОГО ДНЯ</p>
+      <h1>Наши товары</h1>
+      <p class="intro-text">Полезные устройства для работы, учёбы и отдыха.</p>
+    </section>
+    <article class="product">
+      <div class="product-image" aria-hidden="true">🎧</div>
+      <div class="product-content">
+        <p class="category">АУДИОТЕХНИКА</p>
+        <h2>Беспроводные наушники</h2>
+        <p class="description">Bluetooth, встроенный микрофон. Комфортное звучание каждый день.</p>
+        <p class="price">2500 ₽</p>
+        <div class="actions">
+          <button id="buy" class="primary">Купить</button>
+          <button id="details" class="secondary">Подробнее</button>
+          <button id="delivery" class="secondary">Доставка</button>
+          <button id="clear" class="quiet">Очистить</button>
+        </div>
+        <div class="messages" aria-live="polite">
+          <p id="message"></p>
+          <p id="info"></p>
+          <p id="delivery-info"></p>
+        </div>
+      </div>
+    </article>
+  </main>
+  <footer>© 2026 TechShop · Учебный проект</footer>
+  <script src="script.js"></script>
+</body>
+</html>
